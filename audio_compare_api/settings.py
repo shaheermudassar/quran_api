@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$a(8i7_k#9i-!tk&52!1tnp^i^#-5eh6^jt1oog+c9@#1gtj$4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quran-api-3bfp.onrender.com']
 
 
 # Application definition
