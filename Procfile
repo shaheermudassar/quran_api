@@ -1,0 +1,1 @@
+web: gunicorn audio_compare_api.wsgi --log-file -

@@ -1,0 +1,9 @@
+{% load static %}
+
+<form action="{% url "compare-audio" %}" method="post" enctype="multipart/form-data">
+    file 1:
+    <input type="file" name="audio_file1">
+    file 2:
+    <input type="file" name="audio_file2">
+    <button type="submit">Submit</button>
+</form>
