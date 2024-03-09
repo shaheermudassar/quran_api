@@ -44,4 +44,4 @@ urllib3==2.2.1
 gunicorn==21.2.0
 libsndfile1==0.0.1 
 peppercorn==0.6
-ffmpeg-pytho==0.2.0
+ffmpeg-python==0.2.0
