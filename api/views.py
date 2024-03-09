@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 class CompareAudioFiles(APIView):
-    def post(self, request, format=None):
+    def post(self, request):
         # Assuming you are sending audio_file1 and audio_file2 in the request data
         audio_file1 = request.FILES.get('audio_file1', None)
         audio_file2 = request.FILES.get('audio_file2', None)
