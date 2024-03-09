@@ -10,8 +10,8 @@ from sklearn.preprocessing import StandardScaler
 class CompareAudioFiles(APIView):
     def post(self, request, format=None):
         # Assuming you are sending audio_file1 and audio_file2 in the request data
-        audio_file1 = request.data.get('audio_file1', None)
-        audio_file2 = request.data.get('audio_file2', None)
+        audio_file1 = request.FILES.get('audio_file1', None)
+        audio_file2 = request.FILES.get('audio_file2', None)
 
         if not audio_file1 or not audio_file2:
             return Response({'error': 'audio_file1 and audio_file2 are required in the request data'},
